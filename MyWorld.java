@@ -21,5 +21,7 @@ public class MyWorld extends World
         Snowman snowman = new Snowman();
         addObject(snowman,100, 100);
         
+        Banana banana = new Banana();
+        addObject(banana, 600,100);
     }
 }
