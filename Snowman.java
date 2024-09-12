@@ -16,9 +16,13 @@ public class Snowman extends Actor
     public void act()
     {
         // Add your action code here.
-        if(Greenfoot.mouseClicked(null))
+        if(Greenfoot.isKeyDown("s"))
         {
-            atTop = !atTop;
+            atTop = false;
+        }
+        else if(Greenfoot.isKeyDown("w"))
+        {
+            atTop = true;
         }
         
         if(atTop)
